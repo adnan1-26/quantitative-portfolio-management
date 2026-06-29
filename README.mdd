@@ -1,14 +1,24 @@
 # Quantitative Portfolio Management System
 
-A Python-based quantitative finance system that simulates institutional portfolio management workflows including data ingestion, feature engineering, strategy generation, backtesting, portfolio construction, and performance analysis.
+## Overview
+This project is a modular quantitative finance system that simulates institutional portfolio management workflows. It covers the full pipeline from market data ingestion to strategy generation, backtesting, portfolio construction, and performance analysis.
 
 ---
 
-## Features
+## Architecture
 
-- Market data pipeline using Yahoo Finance
+Market Data → Feature Engineering → Strategy Signals → Backtesting Engine → Portfolio Construction → Performance Analytics
+
+---
+
+## Key Features
+
+- Multi-asset data pipeline (Yahoo Finance)
 - Feature engineering (returns, volatility, momentum, z-score)
-- Trading strategies (Momentum, Mean Reversion, Trend Following)
+- Systematic trading strategies:
+  - Momentum
+  - Mean Reversion
+  - Trend Following
 - Backtesting engine with transaction costs
 - Portfolio construction (equal-weight allocation)
 - Performance metrics (Sharpe ratio, drawdown, returns)
@@ -22,28 +32,39 @@ A Python-based quantitative finance system that simulates institutional portfoli
 - Pandas, NumPy
 - Matplotlib
 - yFinance
-- Scikit-learn (optional extensions)
+- SciPy / Statsmodels
 
 ---
 
-## Example Output
+## Example Outputs
 
 - Portfolio equity curve
-- Strategy performance metrics
-- Multi-asset backtesting results
+- Strategy performance comparison
+- Risk and return metrics
+- Multi-asset backtest results
 
 ---
 
 ## Future Improvements
 
-- Risk parity portfolio optimization
-- Mean-variance optimization (Markowitz)
-- Value at Risk (VaR) & CVaR
+- Risk Parity portfolio allocation
+- Mean-Variance Optimization (Markowitz)
+- Value at Risk (VaR) / CVaR
 - Interactive dashboard (Plotly / Streamlit)
-- Machine learning alpha models
+- Factor models (Fama-French)
+- ML-based alpha signals
+
+---
+
+## What This Demonstrates
+
+- Quantitative finance fundamentals
+- Portfolio construction logic
+- System design thinking
+- Python data engineering
+- Financial modeling
 
 ---
 
 ## Author
-
-Built by Adnan as a quantitative finance project.
+Built by Adnan as a quantitative finance portfolio project.
