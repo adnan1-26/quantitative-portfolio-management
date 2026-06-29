@@ -1,0 +1,12 @@
+yfinance
+numpy
+pandas
+matplotlib
+seaborn
+plotly
+scipy
+statsmodels
+scikit-learn
+cvxpy
+quantstats
+tqdm
