@@ -1,0 +1,49 @@
+# Quantitative Portfolio Management System
+
+A Python-based quantitative finance system that simulates institutional portfolio management workflows including data ingestion, feature engineering, strategy generation, backtesting, portfolio construction, and performance analysis.
+
+---
+
+## Features
+
+- Market data pipeline using Yahoo Finance
+- Feature engineering (returns, volatility, momentum, z-score)
+- Trading strategies (Momentum, Mean Reversion, Trend Following)
+- Backtesting engine with transaction costs
+- Portfolio construction (equal-weight allocation)
+- Performance metrics (Sharpe ratio, drawdown, returns)
+- Equity curve visualization
+
+---
+
+## Tech Stack
+
+- Python
+- Pandas, NumPy
+- Matplotlib
+- yFinance
+- Scikit-learn (optional extensions)
+
+---
+
+## Example Output
+
+- Portfolio equity curve
+- Strategy performance metrics
+- Multi-asset backtesting results
+
+---
+
+## Future Improvements
+
+- Risk parity portfolio optimization
+- Mean-variance optimization (Markowitz)
+- Value at Risk (VaR) & CVaR
+- Interactive dashboard (Plotly / Streamlit)
+- Machine learning alpha models
+
+---
+
+## Author
+
+Built by Adnan as a quantitative finance project.
